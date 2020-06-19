@@ -1,0 +1,84 @@
+@import url(reset.css);
+
+@font-face{
+	src: url(../fonts/OPC.ttf);
+	font-family: "OPC";
+	font-weight: normal;
+}
+
+@font-face{
+	src: url(../fonts/Monsterrat.ttf);
+	font-family: "Monsterrat";
+	font-weight: normal;
+}
+
+.heading {
+	width: 1360px;
+	height: 200px;
+	background-color: #E5E000;
+	color: white;
+	font-size: 50px;
+	text-align: left;
+	font-family:"Helvetica", sans-serif;
+	line-height: 3.5;
+	padding-left: 80px;
+}
+	
+.background {
+	width: 1440px;
+	height: 1080px;
+	background-image: url(../img/img.png);
+	background-position: center;
+}
+
+.menu {
+    width: 1440px;
+    height: 100px;
+    background-color: #E5E000;
+    font-size: 25px;
+    font-family: "Helvetica", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 4;
+}
+
+.menu a{
+	color: white;
+    text-decoration: none;
+}
+
+.Artistpage h1{
+	font-family: "OPC", sans-serif;
+	font-weight: bold;
+	font-size: 50px;
+	margin-top: 105px;
+	margin-bottom: 105px;
+	margin-left: 80px;
+}
+
+.Artistpage p{
+	font-family: "Monsterrat";
+	font-weight: lighter;
+	font-size: 50px;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-bottom: 105px;
+	line-height: 130%;
+
+}
+
+.Footer {
+	width: 1360px;
+    height: 200px;
+    background-color: #E5E000;
+
+    color: white;
+    text-align: right;
+	font-size: 50px;
+	font-family: "Helvetica", sans-serif;
+	line-height: 4;
+    padding-right: 80px;
+
+}
+
